@@ -1,0 +1,77 @@
+Open Source Crash Course
+﻿
+
+1. What is Open Source?
+Open source refers to any program whose source code is made available for use or modification as users or other developers see fit.
+
+﻿
+
+2. Find a Repository to contribute
+Finding projects on GitHub / GitLab is easy and challenging at the same time. You need development skills in any tech stack of your choice to get started with Open Source.
+
+As per my tech stack, 
+﻿cal.com fits best for me
+
+Cal: 
+﻿https://github.com/calcom/cal.com 
+
+﻿
+
+3. Finding the Perfect Issue
+This is the first place where you start with your contribution journey, find the perfect issue from the "issues" tab which you think you can take up and start working.
+
+TIP: Always filter issues on tags such as "good first issues' if your are just getting started out
+﻿
+
+4. Understand and Validate the Issue
+After finding the perfect issue for you, make sure that you understand the issue and validate the issue that the problem really makes sense before starting with the contribution.
+
+Always go through the entire discussion before jumping to making contributions
+
+﻿
+
+﻿
+﻿cal.com issues: 
+﻿https://github.com/calcom/cal.com/issues 
+
+﻿
+
+5. Fork and Start Contributing
+As you don't have access to the original repository, you need to fork (copy) the repository to your account and start working on your copy.
+
+﻿
+
+6. Create relevant branches
+Never work directly in the 'main' or 'master' branch, you need to create branches for each issue following the correct convention.
+
+Bug - fix/<bug_name>
+
+New Feature - feat/<feature_name>
+
+﻿
+
+7. Test Before Creating Pull Request
+ are sure that you have solved an issue, make sure you test it properly before raising a PR, as creating PRs without proper testing code makes a bad impression.
+
+﻿
+
+8. Linking PR with Issue
+Once you open a PR, make sure you link it with the issue you worked on by mentioning the issue number in the description of your PR.
+
+Example:
+
+fixes: #issue_number
+
+resolves: #issue_number
+
+﻿
+
+9. Wait for the Maintainer to Merge
+At this point, you need to wait for the maintainer to check your PR and be a part of the discussion if there is any. If everything goes right, your PR will be merged.
+
+﻿
+
+10. Repeat
+That's it, Now just repeat the process by picking another issue of your choice :)
+
+﻿

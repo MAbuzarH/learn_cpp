@@ -1,0 +1,97 @@
+[{
+  "file": "E:\\oop\\New folder\\main.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c \"E:\\oop\\New folder\\main.cpp\" -o \"E:\\oop\\New folder\\main.cpp\".o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\moveConstructure.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\moveConstructure.cpp -o E:\\oop\\moveConstructure.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\New folder\\Account.h",
+  "directory": "E:\\oop",
+  "command": "g++ -c \"E:\\oop\\New folder\\Account.h\" -o \"E:\\oop\\New folder\\Account.h\".o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\bankingSystem.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\bankingSystem.cpp -o E:\\oop\\bankingSystem.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\constructureInitiList.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\constructureInitiList.cpp -o E:\\oop\\constructureInitiList.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\copyConstructre.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\copyConstructre.cpp -o E:\\oop\\copyConstructre.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\multipalInharitance.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\multipalInharitance.cpp -o E:\\oop\\multipalInharitance.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\functionOverrid.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\functionOverrid.cpp -o E:\\oop\\functionOverrid.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\deepCopy.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\deepCopy.cpp -o E:\\oop\\deepCopy.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\encapsulation.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\encapsulation.cpp -o E:\\oop\\encapsulation.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\first.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\first.cpp -o E:\\oop\\first.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\example.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\example.cpp -o E:\\oop\\example.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\frendFun.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\frendFun.cpp -o E:\\oop\\frendFun.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\funOverload.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\funOverload.cpp -o E:\\oop\\funOverload.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\singleInharetance.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\singleInharetance.cpp -o E:\\oop\\singleInharetance.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\New folder\\Account.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c \"E:\\oop\\New folder\\Account.cpp\" -o \"E:\\oop\\New folder\\Account.cpp\".o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\hiraricalInharitance.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\hiraricalInharitance.cpp -o E:\\oop\\hiraricalInharitance.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\landrref.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\landrref.cpp -o E:\\oop\\landrref.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\inharetance.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\inharetance.cpp -o E:\\oop\\inharetance.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\rectangle.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\rectangle.cpp -o E:\\oop\\rectangle.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\multiLevelInharitence.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\multiLevelInharitence.cpp -o E:\\oop\\multiLevelInharitence.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\oop1.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\oop1.cpp -o E:\\oop\\oop1.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\operatorOverloading.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\operatorOverloading.cpp -o E:\\oop\\operatorOverloading.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }, {
+  "file": "E:\\oop\\shallow.cpp",
+  "directory": "E:\\oop",
+  "command": "g++ -c E:\\oop\\shallow.cpp -o E:\\oop\\shallow.cpp.o -target mingw32 -I. -I.  -g -Wall"
+ }]
