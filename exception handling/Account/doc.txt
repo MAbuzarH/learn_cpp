@@ -1,0 +1,171 @@
+Short Notes Polymorphism in C++:
+
+
+
+
+
+
+
+# *Basic Polymorphism Concepts*
+
+
+
+1. Polymorphism: Ability to use a single interface for different data types or classes.
+
+
+
+2. Virtual Functions: Functions in a base class marked with `virtual` to allow derived classes to override them.
+
+
+
+3. Pure Virtual Functions: Functions declared as `= 0` in a base class, forcing derived classes to implement them.
+
+
+
+4. Abstract Classes: Classes with at least one pure virtual function; cannot be instantiated.
+
+
+
+5. Overriding vs. Overloading: Overriding changes base class methods in derived classes; overloading is defining functions with the same name but different parameters.
+
+
+
+
+
+
+# Intermediate Polymorphism Concepts
+
+
+
+6. Polymorphic Classes: Classes that use virtual functions to enable runtime polymorphism.
+
+
+
+7. Base Class Pointers/References: Use base class pointers or references to call derived class methods.
+
+
+
+8. Virtual Destructors: Ensure proper cleanup when deleting derived objects via base pointers.
+
+
+
+9. Dynamic Binding: Binding at runtime using virtual functions.
+
+
+
+10. Polymorphic Arrays: Arrays of base class pointers to hold objects of derived classes.
+
+
+
+11. Virtual Tables (VTables): Compiler-generated tables to manage dynamic function calls in polymorphism.
+
+
+
+12. Virtual Functions with Default Parameters: Default parameters can behave differently when overridden.
+
+
+
+13. Final Keyword: Prevent further overriding or inheritance by using `final` on methods or classes.
+
+
+
+14. Covariant Return Types: Allow derived classes to return types that are more derived than the base class.
+
+
+
+15. Slicing Problem: Losing derived class data when copying objects via base class references or pointers.
+
+
+
+
+
+
+# Advanced Polymorphism Concepts
+
+
+
+16. Multiple Inheritance: A class inherits from more than one base class; can lead to ambiguity.
+
+
+
+17. Virtual Inheritance: Solves the diamond problem by sharing a single base class among multiple derived classes.
+
+
+
+18. Templates and Polymorphism: Combine templates with polymorphism to create generic, type-safe code.
+
+
+
+19. Type Erasure: Hiding type information to enable runtime polymorphism with templates.
+
+
+
+20. RTTI (Run-Time Type Information): Allows querying information about types at runtime (`typeid`, `dynamic_cast`).
+
+
+
+21. Type Traits and SFINAE: Use `std::enable_if` and type traits to enable/disable functions based on types.
+
+
+
+22. CRTP (Curiously Recurring Template Pattern): A class template derives from itself for compile-time polymorphism.
+
+
+
+23. Concepts (C++20): Constraints on template parameters for cleaner and safer code.
+
+
+
+24. std::any and std::variant: Hold any type or one of several types in a single object, enabling type-safe polymorphism.
+
+
+
+25. std::function: A polymorphic wrapper for any callable entity (function, lambda, etc.).
+
+
+
+26. Lambda Expressions: Compact, anonymous functions that can be passed around like objects.
+
+
+
+
+
+
+# Cutting-Edge and Experimental Concepts
+
+
+
+27. Metaclasses (Experimental): Proposed feature to define class behavior at compile time.
+
+
+
+28. Type Reflection (Future): Introspect and manipulate type information at runtime or compile-time.
+
+
+
+29. Concepts-Lite (Beyond C++20): Simplified, lighter constraints for templates.
+
+
+
+30. CRTP: Compile-time polymorphism using template inheritance for performance.
+
+
+
+31. Mixins and Policy Mixins: Compose classes from smaller components for flexible code.
+
+
+
+32. Modern C++ Coroutines: Manage asynchronous code with a more natural, sequential syntax.
+
+
+
+33. Tagged Dispatch: Compile-time selection of code paths based on type tags.
+
+
+
+34. Type-Level Programming: Perform compile-time computations using types.
+
+
+
+35. Non-Type Template Parameters: Use values (not types) as template arguments for compile-time logic.
+

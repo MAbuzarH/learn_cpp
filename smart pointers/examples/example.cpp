@@ -7,7 +7,6 @@ class B;
 class A
 {
     shared_ptr<B> b_ptr;
-
 public:
     void set_b(shared_ptr<B> &b)
     {
