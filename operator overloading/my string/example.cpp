@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<cstring>
+#include<algorithm>
 using namespace std;
 class A{
 	private:
