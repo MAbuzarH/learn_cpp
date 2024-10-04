@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "valarray": "cpp"
+    }
+}
