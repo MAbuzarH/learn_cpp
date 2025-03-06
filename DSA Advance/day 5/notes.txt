@@ -1,0 +1,7 @@
+Feature	   Local Variable	 Static Variable	 Global Variable
+
+Scope	(Inside the function/block only)	(Inside the function but retains value)	(Entire program)
+Lifetime	Created & destroyed on function call	Exists throughout program execution	Exists throughout program execution
+Initialization	Reinitialized every time the function is called	Initialized only once	Initialized only once
+Default Value	Garbage value (if uninitialized)	Default value is 0	Default value is 0
+Storage Location	Stack	Data Segment (Static Memory)	Data Segment (Global Memory)
