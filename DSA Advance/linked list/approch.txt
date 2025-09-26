@@ -1,0 +1,8 @@
+Sliding pointer approch
+p1 p2 p3 // used in reversing a linkedlist
+slow fast approch
+slow = head
+fast = head
+slow = head + 1;
+fast head + 2;
+// if value of slow and fast become same there is loop in linked list;
