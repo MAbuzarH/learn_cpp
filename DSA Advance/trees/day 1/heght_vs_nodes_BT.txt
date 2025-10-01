@@ -1,0 +1,16 @@
+if height is given how many nodes are needed to create a binary tree?
+min nodes  n= h+1
+max nodes if h = 3 so 
+1+ 2 + 2^2 + 2^3 = 15;
+so this is GP series = a + ar + ar^2 + ar^3 + ....+ ar^k;
+so nodes are sum of geomatric prograsition series
+max nodes if height given = sum of GP series;
+so formula = a(r^(k+1)-1)/r-1;
+modifying formula by putting values 
+here a = 1  r = 2 k=height=h so 
+2^(h+1)-1 /2-1 so we got 2^(h+1)-1;
+max nodes are = 2^(h+1)-1
+if nodes are given what could be height of tree?
+min height h = log (base 2) *(n+1) - 1; 
+max height h = n -1 
+so if h reanges log(n) <= h >= O(n) 

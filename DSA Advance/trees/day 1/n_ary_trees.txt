@@ -1,0 +1,22 @@
+what are n_ary Trees?
+here n is number of degree it may be m,e,f etc
+eg: 
+3_ary trees: every node have {0|1|2|3} children
+but no node have children greater than 3.
+
+Strict n_ary Trees?
+A strict n_ary tree a node must have 0 or n children.
+
+Height vs Nodes?
+if height is given then how many number of nodes?
+if we take 3 ary as example so m =3 here m is degree.
+ minimum nodes n = 3(h+1) or m(h+1)
+ maximum nodes n =m^(h+1) -1 /m-1
+
+if nodes are given what would be the height of tree?
+minimum height h = log (base m) [n-(m-1)+1]-1;
+maximum height h = n+1/m
+
+internal vs external nodes?
+for a strict 3_ary tree external nodes are
+e = 2i + 1 //for m_ary e=(m-1)i+1

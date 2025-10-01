@@ -1,0 +1,15 @@
+how to represent binary tree?
+using array
+using linkedlist 
+
+using array?
+use array having start from i=index=1 so
+if elemient is at i his left child is at 2i and right child is at 2i+1
+parent of any element is on  floor(i/2)
+linked representation?
+using linked list 
+structure of node is 
+having left pointer data and right pointer
+left pointer point left child
+right pointer point right child
+for every shaped binary tree representation if nodes are n there must be n+1 null pointers 

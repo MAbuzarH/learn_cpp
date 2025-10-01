@@ -1,0 +1,6 @@
+Full binary tree?
+if tree has maximum node on that hight and by adding any element it increas the height from given height it is called full binary tree.
+complete binary tree?
+if we are storing a BT in array and if there is no blanck spaces between 2 element is complete BT.
+complete binary tree of height h willne the full binary tree of height h-1 and at las we fill last elements from let to right with no gap
+full binary tree is always a complete binary tree

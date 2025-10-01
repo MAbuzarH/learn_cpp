@@ -1,0 +1,3 @@
+Strict binary tree
+some writers aske Strict binary tree as Complete binary tree and to complete tree accourding to our defination they called it almost complete binary tree.
+ 

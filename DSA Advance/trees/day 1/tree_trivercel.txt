@@ -1,0 +1,13 @@
+how to trivercal through trees ?
+When it is stored linear we :
+fast to last that is farword. 
+last to first backword.
+when it is non linear for binary trees these are possiabilities:
+pre order: visit(node) preorder(left sub tree) preorder(right sub tree) we say root left right.
+=ABC
+in order:inorder(left subtree) visit(node) inorder(right subtree)
+=BAC
+post order:postorder(left subtree) postorder(right subtree) visit(nood)
+=BCA
+level order:visit all nodes level by level
+=ABC

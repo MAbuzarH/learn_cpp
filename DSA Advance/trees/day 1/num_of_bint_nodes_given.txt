@@ -1,0 +1,24 @@
+types of noodes:
+label nodes
+un labled nodes
+
+for  un labled nodes:
+if number of nodes are given how many shapes of binary 
+tree we are able to creat?
+eg if n= 3 'T()' is function to tell number of trees
+T(3) = 5 if T(4) 14 so the formula is T(n) = 2n^(c)base(n)/n+1 name of this formula is catalon number.
+if n=(number of nodes) is given how many binary trees generated with max height formula is :
+max highted tree are = 2^(n-1);
+table for observation:
+n :             0 1 2 3 4  5 
+catalon number: 1 1 2 5 14 42
+so for 6 we can find using another method:
+ =1*42 + 1*14 + 2*5 + 5*2 + 14*1 + 42*1
+ =132 answer
+so we drive another formula:
+T(n) = summition T(i-1) * T(n-i) here i start 1 till n.
+this is called recursive formula.
+
+for Labled nodes:
+here we need n! for filling nodes and catalon formula for shapes so the number of tree be;
+T(n) = catalon forumla * n!

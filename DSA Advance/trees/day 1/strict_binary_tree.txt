@@ -1,0 +1,11 @@
+
+A node must have {0 | 2} children
+how many nodes if height is given in Strict BT:
+ minimum nodes = 2(height + 1);
+ maximum nodes = 2^(h+1)-1;
+What is Height if number of Nodes given:
+ min Height = log base 2 (n+1) -1;
+ max Height =(n-1)/2;
+external nodes are 1 greater then internal nodes eg:
+if i = 3 so e = 4; //i = internal,e= external
+e = i+1;
