@@ -1,0 +1,21 @@
+it is a balanced tree similar to 2_3_4 tree 
+it is similar to AVL tree but its idea is originated from 2_3_4 tree 
+every node is either red or black
+root of tree is black
+NULL leaves are also treated black
+number of Blacks on path from root is always same 
+no 2 contigus read node there 
+parent and child of read node is always black
+newly inserted node is always read 
+height of red black tree  log n < h < 2 log n
+avl trees height max 1.44 log n
+insertion in red black tree
+when there is red red conflict you have to balance rb tree
+there are 2 steps to balance re-coloring and rotation
+re-coloring:
+uncle is red:
+ if parent and uncle is red make both black 
+and newly created node will read make grand parent of newly created node as red also but if it is root keep it black.
+Uncle is black: 
+if parent is red and uncle is black now preform rotation 
+we have 2 rotation zig-zig (LL/RR) and zig-zag (LR,RL)
