@@ -19,3 +19,9 @@ and newly created node will read make grand parent of newly created node as red 
 Uncle is black: 
 if parent is red and uncle is black now preform rotation 
 we have 2 rotation zig-zig (LL/RR) and zig-zag (LR,RL)
+deletion in red black tree
+if there is red node simply delete it
+and if it has one black child and it take its place
+if node to be deleted is black and his simbling is red delete black node his child takes its place and then prform rotation 
+if a node we want to delete is black and his simbling and children are also black delete node his child take place so change color of simbling to red and parent to black 
+if node is black and simbling is black and simbling's child are read so delete node and prform rotation  

@@ -1,0 +1,23 @@
+heap is a complete binary tree
+binary heaps are implimented using array
+max Heap
+every element in root node is grater or equal to its decendent so duplication i allowed
+min Heap 
+every element in root node is smaller  or equal to its decendent so duplication i allowed
+height of the tree must be log(n)
+height of heap and coplete binary tree is equal
+heap is not usefull for searching 
+insert the element where is next free space in array check if it is max heap if not move THat element until it setisfi the condition of max heap
+in array representation we use formula (i/2) this gives the parent of i'th indes 
+from heap you can only delete root element which is max so root element is larger element so larger element is deleted ,heiger pirorety element 
+so after deleting element the last leaf node (least element in the heap) come to the deleted element place and then compare the next level in tree and compare each simbling  values in that nodes the value is grater placed in root node and the value of node came on that place    
+Heap sort:
+1: create heap of n elements //time (n log n)
+2: delet n element one by one // time (n log n)
+total time taken by heap sort is :2n log n 
+if we delete element one by one from heap and store them in the empty place that was left behind in arry so when we delete all element and  now the arry is sorted .
+Heapify:
+when we add element adiustment done from leaf toward root node but on deletion adjustmant is done from root to leaf node 
+hepify take O(n) times because we start from oposit side first we starting from arrys first element is in heap and keep in inserting and index++ but when we think that last element is in heap and we move back word index-- and adding previous element in heap and so on this is called heapify
+heap help us to apply perority queues 
+heap is best data structure to impliment pirority queues

@@ -1,0 +1,18 @@
+There are some sorting techniqueus:
+Buble,insertion,selection,Heap sort ,mearg sort,
+Quic sort,tree sort, shell sort ,count sort 
+Bucket/bin sort,Rodix sort
+first 8 algorithm are called compareson based sort
+the other 3 are caled index based sort
+first 3 takes O(n^2) time
+4 to 7 takes O(n log n)
+8 takes (n^3/2)
+last 3 take O(n) time but consume more space 
+critera of Analysis:
+1.number of comparision
+2.number of swap
+3.Adoptive
+if any algorithm take minimum time on already sorted list this algo is called Adoptive
+4.stable
+if any algorithm maintain order of duplicate element is called stable 
+5.extra memory   
