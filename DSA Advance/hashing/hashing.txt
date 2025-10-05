@@ -1,0 +1,13 @@
+we have diffrent hash function 
+modular h(x) = x % SIZE || h(x) = (x % SIZE) +1 //here size of hash table
+here +1 means we are starting indexing from 1 onword 
+it is suggested to take size as a prime number 
+prime number : number that divide on 1 or it self completly
+Mid Squre:
+take a key take its saqure and take mid degite eg Key = 11 so squre is 121 so store it at index 2 
+Folding :
+eg we have key  = 123547 so we make pairs of 2 and add them eg 12+35+47 = 94 then we store this key on index 94
+if we have key as string we can add its ascii valus and store them 
+
+idea behind hashing is that values must distribut uniformly on every index 
+if we are using probing the size of hash table should be double than the size of numbers you have to store 
