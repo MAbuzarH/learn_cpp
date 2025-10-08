@@ -1,0 +1,43 @@
+Graphs
+in graphs we say nodes as vertix 
+the connection between 2 vertices is called edge
+Application
+Googele  Maps
+Social Media Apps
+Dilavery Apps
+we have 2 types of edges Unidirection and Bi directional anothr name of bi directional edge is Undirection
+we have a directed graph where we have Unidirection edges
+Edges Based on Weight
+weighted edge have some number on edge 
+if weight are not assign we assume unit wait as 1
+Un weighted edges: nothing is given on edges
+We have directed Acyclic Graph where no cycle form  A-> B ->C
+We have directed Acyclic Graph where  cycle form  A-> B ->C ->A
+path: contain Lot of vertesis All of them are reachable
+Degree of vertesis for un directed graph: the number of edges attach to A vertix 
+property: total degree of a graph = 2* number of edges
+Directed graph:
+in degree of a Node, Out degree of a node.
+choesing a data structure to store graph
+every time we given n(nodes) m(edges)
+m-lines also given like (1 2) edge between 1 and 2 (1 3) edge between 1 and 3
+two way to store matrix way and other List way,
+Matrix way:
+Edgency matrix :
+if n = 5 and 1 base indexing so take a matrix 'matrix[n+1][n+1]' and eg for (1 2) go the first row and 2nd colum mark it as 1 and goto 2nd row and first colum as 1 this helps us to performe future algorithims 
+all the remaning edges mark as 0 
+space is (n*n)
+List:
+we create an array of n+1 index to store elements
+components:
+graph can be broken into diffrent components 
+if we have diffrent components of a graph and they are not connected we take a visited array we mark it false and when we sucessfully visted that node we make it true
+BFS:
+it is a trivercel technique  BFS(breadth first search)
+it is also called level wise
+in this we can wisit all node level wise fession  if tree is   3<-1->2 so 1 is parent first we visit 1 then at level 2 we visit its childrens 3 2 
+to use Bredth first we take a Queue having starting node in it and a visited array size of total size of nodes in graph mark that particular index which is in Queue as 1 all other as 0
+take out starting node from queue and  mark it visted in visited array an go to its naboure which we get for adjcency list and enqueu them then deque another node and do same for that and so on if any node has naboure which is already marked as visited we dont put it into queue
+DFS:
+first we go in to depth then come back and for other tried same thing this is also a reccursion   
+make adjcency list then make a visited array and make starting node as 1 and all other as 0 make calls recursively for all nodes
