@@ -51,7 +51,7 @@ void ReportError(LPCTSTR userMessage, DWORD exitCode, BOOL printErrorMessage)
 // Purpose:  Parses command-line options (flags)
 // Example:  program.exe -a -b file.txt
 //--------------------------------------------------
-DWORD Options(int argc, LPCTSTR argv[], LPCTSTR Optstr, ...)
+DWORD Options(int argc, TCHAR *argv[], LPCTSTR Optstr, ...)
 {
   va_list pFlagList;
   LPBOOL pFlag;
@@ -93,9 +93,62 @@ static void CatFile(HANDLE hInFile, HANDLE hOutFile)
   }
 }
 
-BOOL cci_f(LPCTSTR fIn,LPCTSTR fOut,DWORD shift){
-  
+//function use to encrep text
+BOOL cci_f(LPCTSTR fIn, LPCTSTR fOut, DWORD shift)
+{
+    HANDLE hIn, hOut;
+    DWORD nIn, nOut, iCopy;
+    BYTE buffer[BUF_SIZE], bShift = (BYTE)shift;
+    BOOL writeOk = TRUE;
+
+    // Open input file for reading
+    hIn = CreateFile(
+        fIn,
+        GENERIC_READ,
+        0,
+        NULL,
+        OPEN_EXISTING,
+        FILE_ATTRIBUTE_NORMAL,
+        NULL);
+
+    if (hIn == INVALID_HANDLE_VALUE)
+    {
+        ReportError(_T("Error opening input file."), 0, TRUE);
+        return FALSE;
+    }
+
+    // Open output file for writing (create or overwrite)
+    hOut = CreateFile(
+        fOut,
+        GENERIC_WRITE,
+        0,
+        NULL,
+        CREATE_ALWAYS,
+        FILE_ATTRIBUTE_NORMAL,
+        NULL);
+
+    if (hOut == INVALID_HANDLE_VALUE)
+    {
+        ReportError(_T("Error opening output file."), 0, TRUE);
+        CloseHandle(hIn);
+        return FALSE;
+    }
+
+    // Read and shift bytes
+    while (writeOk && ReadFile(hIn, buffer, BUF_SIZE, &nIn, NULL) && nIn > 0)
+    {
+        for (iCopy = 0; iCopy < nIn; iCopy++)
+        {
+            buffer[iCopy] = buffer[iCopy] + bShift;
+        }
+        writeOk = WriteFile(hOut, buffer, nIn, &nOut, NULL);
+    }
+
+    CloseHandle(hIn);
+    CloseHandle(hOut);
+    return writeOk;
 }
+
 
 //--------------------------------------------------
 // Function: main
@@ -118,6 +171,15 @@ int _tmain(int argc, TCHAR *argv[])
     _tprintf(_T("Non-option argument: %s\n"), argv[firstArgIndex]);
   }
 
+  //---Test cyphr ccli function() ---
+  if (argc != 4)
+  {
+    ReportError(_T ("Usage: cci shift file1 file2"), 1, FALSE);
+  }
+  if (!cci_f(argv[2], argv[3], _ttoi(argv[1])))
+  {
+    ReportError(_T ("Encryption failed."), 4, TRUE);
+  }
   // --- Test file handling & ReportError() ---
   HANDLE hFile = CreateFile(
       _T("nonexistent.txt"),
